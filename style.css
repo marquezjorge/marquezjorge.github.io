@@ -1,6 +1,6 @@
 
 body {
-    background-image: url('/images/fractalBackground.jpg');
+    background: url('/images/fractalBackground.jpg');
     background-repeat: no-repeat;
 }
  
