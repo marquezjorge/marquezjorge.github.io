@@ -1,3 +1,7 @@
+
 body {
-    background-image: "C:\Users\Jorge M\website\marquezjorge.github.io\images\fractalBackground.jpg";
+    height: 100vh;
+    background-image: url('../marquezjorge.github.io/images/fractalBackground.jpg');
+    background-repeat: no-repeat;
 }
+ 
