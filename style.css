@@ -1,2 +1,13 @@
 
+head {
+    font-family: 'Quicksand', sans-serif;
+}
 
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+#person-icon {
+    display: inline;
+}
