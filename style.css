@@ -14,8 +14,6 @@ main {
     margin: 2%;
     margin: 0, auto;
     display: flex;
-    border-radius: 33px;
-    border: solid;
 }
 
 aside {
@@ -39,6 +37,11 @@ aside {
     border-radius: 33px;
     border: solid;
     padding: 10px;
+    text-align: center;
+}
+
+#bottomPanelBullets {
+    font-size: large;
 }
 
 #mainPanel {
@@ -49,5 +52,16 @@ aside {
     border: solid;
     padding: 10px;
 }
+
+.fa { 
+    padding: 19px;
+    font-size: 30px;
+    width: 22px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background: white;
+    color: #0a66c2;
+}    
 
 
