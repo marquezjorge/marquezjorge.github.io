@@ -24,13 +24,22 @@ aside {
     float: left;
     padding: 10px;
     align-items: stretch;
+
 }
+
+ul {
+    padding: 0;
+    display: grid;
+}
+
 
 #topSidePanel {
     border-radius: 33px;
     border: solid;
-    padding: 10px;
     margin-bottom: 10%;
+    width: 180px;
+    height: auto;
+    content: url(/images/me.jpeg);
 }
 
 #bottomSidePanel {
@@ -38,10 +47,6 @@ aside {
     border: solid;
     padding: 10px;
     text-align: center;
-}
-
-#bottomPanelBullets {
-    font-size: large;
 }
 
 #mainPanel {
@@ -62,6 +67,19 @@ aside {
     border-radius: 50%;
     background: white;
     color: #0a66c2;
-}    
+}
 
+.contact-item {
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+}
 
+.material-symbols-outlined {
+    display: block;
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
