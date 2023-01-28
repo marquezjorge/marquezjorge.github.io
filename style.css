@@ -6,7 +6,6 @@ head {
 body {
     font-family: 'Quicksand', sans-serif;
     margin: auto auto;
-    display: block
 }
 
 main {
@@ -23,8 +22,6 @@ aside {
     width: 30%;
     float: left;
     padding: 10px;
-    align-items: stretch;
-
 }
 
 ul {
